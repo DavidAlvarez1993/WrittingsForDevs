@@ -101,6 +101,8 @@ header {
   border-radius: 20px;
   overflow: hidden;
   background-color: #fff;
+  font-family: 'Poppins';
+  padding: 15px;
   /* display: flex;
   flex-direction: column; */
   display: grid;
@@ -111,6 +113,7 @@ header {
 .card img {
   width: 100%;
   height: auto;
+  border-radius: 20px;
 }
 
 .card-content {
@@ -120,6 +123,7 @@ header {
 .card-title {
   font-size: 1.2em;
   margin: 0 0 10px;
+  color: #0F1217;
 }
 
 .card-description {
@@ -131,4 +135,37 @@ header {
 .card-footer {
   font-size: 0.85em;
   color: #666;
+}
+
+.pages-btn-container {
+  font-family: 'Recursive', sans-serif;
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #909090;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.number-btn {
+  font-family: inherit;
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #909090;
+  background-color: transparent;
+  border: none;
+  border-top: 2px solid transparent;
+  padding: 8px 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.number-btn:hover {
+  background-color: #2E3339;
+}
+
+.number-btn.active {
+  color: #FF7575;
+  border-top-color: #FF7575;
+  font-weight: 700;
 }
